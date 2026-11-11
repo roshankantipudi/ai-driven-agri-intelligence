@@ -7,7 +7,7 @@
 This repository hosts the centralized codebase for our 2-person engineering and research project. Because I handled the final architecture integration and repository tracking from my account, it is hosted under my personal profile. The workload was divided cleanly as follows:
 
 * **Roshan Kantipudi (Lead Data Engineer & Performance Specialist)**: Owned the end-to-end data pipeline and model evaluation architecture. Engineered the logical tracking map using in-memory Pandas DataFrames to manage 28,000 crop images across 69 distinct disease classes. Built the runtime lazy-loading batch generators to prevent GPU memory crashes, implemented tensor normalization pipelines, constructed the multi-model benchmarking framework (evaluating VGG16, ResNet50, and InceptionV3), and integrated the Grad-CAM++ explainability activation layer. Co-authored the final research manuscript tailored to IEEE publication standards.
-* **Satya (Frontend Dashboard & Environment Specialist,modal training)**: Developed the interactive web diagnostic dashboard interface for end-users, managed local execution environment dependencies, and assisted with initial dataset documentation and environment configurations.
+* **Satya (Frontend Dashboard & Environment Specialist,Model Training)**: Developed the interactive web diagnostic dashboard interface for end-users, managed local execution environment dependencies, and assisted with initial dataset documentation and environment configurations.
   
 This project uses a VGG16 model to detect crop diseases and provides fertilizer recommendations based on crop data.
 
